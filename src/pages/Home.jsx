@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoCompo from '../components/videoCompo';
+import VideoCompo from '../components/VideoCompo';
 import DifficultyButton from '../components/DifficultyButton';
 
 function Home() {
