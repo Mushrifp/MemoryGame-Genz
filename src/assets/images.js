@@ -19,9 +19,30 @@ import img18 from './imgs/18.jpg';
 import img19 from './imgs/19.jpg';
 import img20 from './imgs/20.webp';
 
+
 const images = [
-  img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
-  img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
-];
+    img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
+    img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
+  ].map((img) => ({
+    img,
+    key: Math.floor(Math.random() * 1000000),  
+    flip: false,
+    correct: false,
+  }));
+
+ export const getRandomImages = (count) => {
+    const randomImages = [];
+  
+    while (randomImages.length < count) {
+      const randomIndex = Math.floor(Math.random() * images.length);
+      if (!randomImages.includes(images[randomIndex])) {
+        randomImages.push(images[randomIndex]);
+      }
+    }
+  
+    return randomImages;
+  };
+  
+
 
 export default images;

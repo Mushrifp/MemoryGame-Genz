@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom'
 import Easy from '../components/Easy'
-import Medium from '../components/Medium'
 import Hard from '../components/Hard'
 
 function Game() {
@@ -8,7 +7,6 @@ function Game() {
 
     const vibeComponents = {
         chill: <Easy />,
-        flex: <Medium />,
         hard: <Hard />
       };
 

@@ -21,22 +21,6 @@ function DifficultyButton() {
         </button>
       </Link>
 
-      <Link to='/game/flex'>
-        <button className="difficulty-btn relative text-white px-8 py-4 rounded-lg text-xl font-semibold group">
-          <div className="image-wrapper relative w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
-            <img 
-              src="https://i.pinimg.com/736x/ec/57/99/ec57993455627ffe5bd9536d1a307878.jpg" 
-              alt="Vibe Check" 
-              className="w-full h-full object-cover"
-            />
-            <div className="overlay absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span className="text-white text-lg">Medium</span>
-            </div>
-          </div>
-          Flex 💪
-        </button>
-      </Link>
-
       <Link to='/game/hard'>
         <button className="difficulty-btn relative text-white px-8 py-4 rounded-lg text-xl font-semibold group">
           <div className="image-wrapper relative w-24 h-24 sm:w-32 sm:h-32 rounded-lg overflow-hidden">
