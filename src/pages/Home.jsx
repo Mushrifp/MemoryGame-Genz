@@ -12,11 +12,11 @@ function Home() {
 
       <div className="relative z-10 text-center text-white px-6">
         <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
-          Brain game on, let’s get this W
+          Welcome to memory flex
         </h1>
         
         <p className="text-md sm:text-lg mb-6">
-          Bet! Train your brain and flex those vibes! 💯🧠🔥
+           Train your brain and flex those vibes! 💯🧠🔥
         </p>
 
         <h3 className="text-xl sm:text-2xl mb-4">

@@ -147,7 +147,7 @@ function Easy() {
                     <img
                       src={image.img}
                       alt="Actual Image"
-                      className="w-full h-32 object-cover rounded-lg shadow-lg"
+                      className="w-full h-32 object-cover rounded-lg cursor-pointer shadow-lg"
                     />
                   ) : (
                     <img
