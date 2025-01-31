@@ -11,7 +11,7 @@ function Hard() {
   const [bg, setBg] = useState(true);
   const [remCount, setRemCount] = useState(0);
   const [gameWon, setGameWon] = useState(false);
-  const [limit, setLimit] = useState(5);
+  const [limit, setLimit] = useState(10);
   const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ function Hard() {
     setRemCount(0);
     setGameWon(false);
     setBg(true);
-    setLimit(20);
+    setLimit(10);
     setGameOver(false);
   };
 
@@ -126,7 +126,7 @@ function Hard() {
             <>
               <Gamebutton onClick={startGame} />
               <h1 className="text-white text-lg md:text-3xl mb-4 mt-3">
-                Left: {limit}
+               You have {limit} chance to left bro
               </h1>
 
               <div className="w-full max-w-lg md:max-w-2xl mx-auto">
