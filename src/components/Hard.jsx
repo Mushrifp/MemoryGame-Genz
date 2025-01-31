@@ -11,7 +11,7 @@ function Hard() {
   const [bg, setBg] = useState(true);
   const [remCount, setRemCount] = useState(0);
   const [gameWon, setGameWon] = useState(false);
-  const [limit, setLimit] = useState(20);
+  const [limit, setLimit] = useState(5);
   const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
